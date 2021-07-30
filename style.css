@@ -1,0 +1,135 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+/*header*/
+
+.header{
+    height: 104px;
+    opacity: .6;
+    width: 100%;
+    background-color: #131212;
+    position: absolute;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 104px;
+    padding: 10px 150px 0 0;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    color: #F4F4F4;
+    font-size: 36px;
+    margin-left: 90px;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    color: #F4F4F4;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 37px;
+    font-weight: 700;
+    transition: all ease .2s;
+}
+/*btn:hover*/
+
+.btn_one:hover{
+    color: #CE1515;
+}
+
+.btn_one:hover:after{
+    display: block;
+    content: "";
+    width: 98px;
+    height: 2px;
+    background-color: #CE1515;
+    position: fixed;
+    top: 104px;
+}
+
+.btn_two:hover{
+    color: #CE1515;
+}
+
+.btn_two:hover:after{
+    display: block;
+    content: "";
+    width: 150px;
+    height: 2px;
+    background-color: #CE1515;
+    position: fixed;
+    top: 104px;
+}
+
+.btn_three:hover{
+    color: #CE1515;
+}
+
+.btn_three:hover:after{
+    display: block;
+    content: "";
+    width: 170px;
+    height: 2px;
+    background-color: #CE1515;
+    position: fixed;
+    top: 104px;
+}
+
+.btn_four:hover{
+    color: #CE1515;
+}
+
+.btn_four:hover:after{
+    display: block;
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #CE1515;
+    position: fixed;
+    top: 104px;
+}
+.btn_five:hover{
+    color: #CE1515;
+}
+
+.btn_five:hover:after{
+    display: block;
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #CE1515;
+    position: fixed;
+    top: 104px;
+}
+
+/*btn:hover*/
+
+
+
+/*header*/
+
+/*main*/
+
+.main{
+    height: 1920px;
+    width: 100%;
+    background: url("img/main.jpg")no-repeat, center;
+    background-size: contain;
+    
+}
+
+/*main*/
