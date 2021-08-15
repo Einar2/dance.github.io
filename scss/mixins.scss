@@ -1,0 +1,168 @@
+@mixin btn_1{
+    &:hover{
+        color: #CE1515;
+    }
+            
+    &:hover:after{
+        display: block;
+        position: fixed;
+        content: "";
+        width: 54px;
+        height: 2px;
+        background-color: #CE1515;
+        top: 70px;
+        }
+}
+
+@mixin btn_2{
+    &:hover{
+        color: #CE1515;
+    }
+            
+    &:hover:after{
+        display: block;
+        position: fixed;
+        content: "";
+        width: 90px;
+        height: 2px;
+        background-color: #CE1515;
+        top: 70px;
+        }
+}
+
+@mixin btn_3{
+   
+            
+    &:hover:after{
+        display: block;
+        position: fixed;
+        content: "";
+        width: 107px;
+        height: 2px;
+        background-color: #CE1515;
+        top: 70px;
+        }
+    
+     &:hover{
+        color: #CE1515;
+    }
+}
+
+@mixin btn_4{
+   
+            
+    &:hover:after{
+        display: block;
+        position: fixed;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #CE1515;
+        top: 70px;
+        }
+    
+     &:hover{
+        color: #CE1515;
+    }
+}
+
+@mixin btn_5{
+    
+            
+    &:hover:after{
+        display: block;
+        position: fixed;
+        content: "";
+        width: 42px;
+        height: 2px;
+        background-color: #CE1515;
+        top: 70px;
+        }
+    
+    &:hover{
+        color: #CE1515;
+    }
+}
+
+
+
+
+@mixin smoke{
+    @keyframes smoke{
+        0%{
+            left: 0;
+        }
+        
+        50%{
+            left: 300px;
+        }
+        
+    
+        
+        100%{
+            left: 0;
+        }
+    }
+}
+
+
+
+@mixin texts{
+    @keyframes text{
+        0%{
+            right: 400px;
+            opacity: 0;
+        }
+        
+        100%{
+            right: 0;
+            opacity: 1;
+        }
+    }
+    
+}
+
+
+@mixin navs{
+    @keyframes nav{
+        0%{
+            left: 400px;
+            opacity: 0;
+        }
+        
+        100%{
+            left: 0;
+            opacity: 1;
+        }
+    }
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
