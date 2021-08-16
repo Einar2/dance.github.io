@@ -91,7 +91,7 @@ a{
         height: 70px;
         align-items: center;
         a{
-            color: #CE1515;
+            color: #F4F4F4;
             font-size: 16px;
             font-weight: 700;
             margin-left: 10px;
@@ -157,6 +157,7 @@ a{
         .main_con_rigth{
             animation: nav  2s ease-in-out;
             position: relative;
+            z-index: 1111;
             
             .main_nav{
             display:flex;
@@ -198,12 +199,160 @@ a{
         @include navs;
 }
 
+.block__center_text{
+    text-align: center;
+    margin-top: 100px;
+    h1{
+        font-family: $play;
+        font-weight: 700;
+        color: #000;
+    }
+    p{
+        color: #8A8A8A;
+        width: 336px;
+        margin: 10px auto;
+        font-family: $play;
+        @include p;
+        font-weight: 400;
+        
+    }
+}
+
+
+.block_dance{
+    width: 100%;
+    margin-top: 100px;
+    
+    .block_dance_content_one{
+        display: flex;
+        width: 100%;
+        height: 500px;
+        
+        .block_content_img{
+            width: 50%;
+            height: 500px;
+            
+            img{
+                object-fit: cover;
+                width: 100%;
+                height: 500px;
+            }
+
+        }
+        
+        .block_content_text{
+            width: 50%;
+            background-color: #fff;
+            height: 500px;
+            position: relative;
+            
+            .rigth{
+                position: absolute;
+                right: 200px;
+            }
+            .rigth_two{
+                position: absolute;
+                left: 500px;
+            }
+            .content__text{
+                text-align: left;
+                margin-left: 40px;
+                margin-top: 15%;
+                
+                h1{
+                    font-family: $play;
+                    font-weight: 700;
+                    color: #000;
+                    font-size: 38px;
+                }
+                
+                p{
+                    width: 550px;
+                    margin-top: 10px;
+                }
+            }
+            
+            
+            .content_play{
+                display: flex;
+                height: 100px;
+                align-items: center;
+                margin-top: 50px;
+                margin-left: 20px;
+                img{
+                    width: 100px;
+                }
+                a{
+                    padding-left: 20px;
+                    color: #333;
+                }
+                
+            }
+        }
+    }
+    
+    .low{
+        text-align: center;
+        margin-top: 20px;
+        
+        img{
+            width: 48px;
+        }
+    }
+}
 
 
 
 
 
 
+
+//block_teacher
+
+.block_teacher{
+    display: flex;
+    height: 500px;
+    
+    .teacher{
+        width: 25%;
+        overflow: hidden;
+        @include teacher;
+        transition: all ease 1s;
+        img{
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+    
+    @include anim_teacher;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//block_teacher
 
 
 

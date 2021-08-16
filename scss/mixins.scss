@@ -137,6 +137,44 @@
     }
     
 }
+
+
+
+
+
+@mixin p{
+    &:after{
+        display: block;
+        content: "";
+        width: 60px;
+        height: 3px;
+        margin: 10px auto;
+        background-color: #CE1515;
+    }
+}
+
+
+@mixin teacher{
+    &:hover{
+        background-color: #333;
+        opacity: .2;
+        animation: teacher_anim .5s ease;
+        position: relative;
+    }
+}
+
+
+@mixin anim_teacher{
+    @keyframes teacher_anim{
+        0%{
+          top: 300px;  
+        }
+        
+        100%{
+            top: 0;
+        }
+    }
+}
     
     
     
